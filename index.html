@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Curso de html5</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+
+	<header id="cabecalho">
+	<hgroup>
+	<h1>TemaPrincipal</h1>
+
+	</hgroup>
+
+
+	<img id="icone" src="_imagens/subsLogo.jpg"/>
+
+	<nav id="menu">
+	<h1>Menu Principal</h1>
+<ul>
+	<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/subsLogo.jpg')"><a href="index.html">Home</a></li>
+	<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/subsLogo.jpg')"><a href="specs.html">Especificações</a></li>
+	<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/subsLogo.jpg')"><a href="fotos.html">Fotos</a></li>
+	<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/subsLogo.jpg')"><a href="faleconosco.html">Fale Conosco</a></li>
+</ul>
+</nav>
+	</header>
+<section id="corpo">
+
+<article id="noticia-principal">
+<header id="cabecalho-artigo">
+<hgroup>
+<h3>Tecnologia > Inovações</h3>
+<h1>TiítuloPrincipal</h1>
+<h2>por Vitoria</h2>
+<h3 class="direita">Atualizado em 07.02</h3>
+</hgroup>
+</header>
+	<h2>Algum título</h2>
+
+<figure class="foto-legenda">
+	<img src="_imagens/certeza.jpg"/>
+	<figcaption>
+		<h3>Bla bla</h3>
+		<p>blablablablablablablablablabla</p>
+	</figcaption>
+</figure>
+	<h2>6. file</h2>
+	<p>In the previous lesson we learned about touch, let’s go back to that for a bit. Did you notice that the filename didn’t conform to standard naming like you’ve probably seen with other operating systems like Windows? Normally you would expect a file called banana.jpeg and expect a JPEG picture file <a href="https://linuxjourney.com/lesson/file-command" target="_blank">linkaqui</a>.</p>
+		<!--target - abre link externo em outra aba -->
+
+	<p>In Linux, filenames aren’t required to represent the contents of the file. You can create a file called funny.gif that isn’t actually a GIF.</p>
+
+	<p>To find out what kind of file a file is, you can use the file command. It will show you a description of the file’s contents.</p> 
+
+	<h2>Criação de tabela</h2>
+	<table id="tabelaspec">
+	<caption>titulo da tabela fev/2020</caption>
+
+	<tr><td>linha</td><td>1</td></tr>
+	<tr><td>linha</td><td>2</td></tr>
+	<tr><td>linha</td><td>3</td></tr>
+	<tr><td>linha</td><td>4</td></tr>
+	<tr><td>linha</td><td>5</td></tr>
+	</table>
+
+	<h2>8. less</h2>
+
+	<p>If you are viewing text files larger than a simple output, less is more. (There is actually a command called more that does something similar, so this is ironic.) The text is displayed in a paged manner, so you can navigate through a text file page by page.</p>
+
+	<p>Go ahead and look at the contents of a file with less. Once you’re in the less command, you can actually use other keyboard commands to navigate in the file.</p> 
+
+</article>
+</section>
+
+<aside id="lateral">
+
+	<h1>Padrões GoF</h1>
+
+	<p>Esses padrões tem como objetivo, solucionar problemas comuns de softwares que tenham algum envolvimento a orientação a objetos. São formados por três grupos exibidos abaixo:</p>
+
+    <p>Padrões de criação: Factory Method, Abstract Factory, Singleton, Builder, Prototype.
+    Padrões estruturais: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy;
+    Padrões comportamentais: Chain of Responsability, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Method, Visitor.</p>
+
+    <h2>Padrões GoF de criação</h2>
+
+	<p>Os padrões desse tipo, exigem um tratamento de como os objetos (classes) são criados, para atenderem as diversas necessidades. No Java, os objetos são instanciados através de seus construtores, porém a utilização deles fica limitada quando:</p>
+
+    <p>O código que referencia a criação de um objeto precisa conhecer os construtores dele, isso aumenta o acoplamento das classes.
+    O objeto não pode ser criado parcialmente.
+    O construtor não consegue controlar o número de instâncias presentes na aplicação.</p>
+</aside>
+<footer id="rodape">
+<p>Copyright &copy; 2020 - by vitoria <br/>
+<a href="http://facebook.com" target="
+_blank">Facebook | 
+<a href="http://twitter.com" target="_blank">Twitter </p>
+</footer>
+</div>
+</body>
+</html>
